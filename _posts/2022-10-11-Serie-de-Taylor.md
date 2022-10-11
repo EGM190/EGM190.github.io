@@ -112,7 +112,7 @@ double taylorCent(double (*inFunc)(double), double x, double a, double h, int n)
         exit(-1);
     }
     double res = inFunc(a);
-    for(int i=1; i < n; i++){
+    for(int i=1; i < n-1; i++){
         res += r_derivativeNCent(inFunc, a, h, n)*(pow(x-a, n))/(tgamma(n+1));
     }
     return res;
