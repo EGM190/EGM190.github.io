@@ -1,3 +1,11 @@
+---
+layout: post
+title: Serie de Taylor
+---
+
+Derivadas con serie de Taylor
+
+```c++
 #include <iostream>
 #include <cmath>
 
@@ -109,3 +117,7 @@ double taylorCent(double (*inFunc)(double), double x, double a, double h, int n)
     }
     return res;
 }
+```
+
+***
+Author: _Lsilva_
