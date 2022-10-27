@@ -18,12 +18,10 @@ Y la siguiente para **Euler-Corrector** :
 
 #### Gráfico de Método de Euler Mejorado 
 
-![_config.yml]({{ site.baseurl }}/images/metodo_euler_mejorado.JPG
 ![_config.yml]({{ site.baseurl }}/images/metodo_euler_mejorado.JPG)
 
 El método numérico de Euler Mejorado se aplicará a la siguiente forma de ecuación diferencial: **y’ = f(x,y)**
 
-![_config.yml]({{ site.baseurl }}/images/ejercicio1.JPG
 ![_config.yml]({{ site.baseurl }}/images/ejercicio1.JPG)
 
 A continuación se muestra el desarrollo del programa: 
